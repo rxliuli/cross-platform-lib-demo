@@ -1,5 +1,5 @@
 import './style.css'
-import { Adapter } from 'platform-specific-code-dynamic-judgment'
+import { Adapter } from 'platform-specific-lib-import'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
