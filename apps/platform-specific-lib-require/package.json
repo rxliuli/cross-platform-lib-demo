@@ -1,5 +1,5 @@
 {
-  "name": "platform-specific-lib-import",
+  "name": "platform-specific-lib-require",
   "version": "1.0.0",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

@@ -11,6 +11,7 @@
     "vite": "^2.3.7",
     "platform-specific-code-dynamic-judgment": "*",
     "platform-specific-code-multiple-bundle": "*",
-    "platform-specific-lib-import": "*"
+    "platform-specific-lib-import": "*",
+    "platform-specific-lib-require": "*"
   }
 }

@@ -1,5 +1,5 @@
 import './style.css'
-import { Adapter } from 'platform-specific-lib-import'
+import { Adapter } from 'platform-specific-lib-require'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
