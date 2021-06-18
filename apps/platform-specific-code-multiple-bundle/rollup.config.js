@@ -3,6 +3,9 @@ import typescript from 'rollup-plugin-typescript2'
 
 export default defineConfig({
   input: ['src/index.ts', 'src/browser.ts'],
-  output: { dir: 'dist', format: 'cjs', sourcemap: true },
+  output: [
+    { dir: 'dist/cjs', format: 'cjs', sourcemap: true },
+    { dir: 'dist/esm', format: 'esm', sourcemap: true },
+  ],
   plugins: [typescript()],
 })

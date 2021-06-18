@@ -1,9 +1,13 @@
 {
-  "name": "platform-specific-code",
+  "name": "platform-specific-code-multiple-bundle",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "browser": "dist/browser.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "browser": {
+    "dist/cjs/index.js": "dist/cjs/browser.js",
+    "dist/esm/index.js": "dist/esm/browser.js"
+  },
   "scripts": {
     "dev": "rollup -cw",
     "build": "rollup -c"

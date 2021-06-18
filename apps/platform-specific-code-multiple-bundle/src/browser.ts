@@ -1,1 +1,1 @@
-export * from './adapters/BrowserAdapter'
+export { BrowserAdapter as Adapter } from './adapters/BrowserAdapter'
