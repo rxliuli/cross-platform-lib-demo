@@ -1,0 +1,24 @@
+{
+  "name": "platform-specific-type-definition-multiple-bundle",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "dev": "rollup -cw",
+    "build": "rollup -c"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "devDependencies": {
+    "rollup": "^2.52.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.4",
+    "@types/node": "14",
+    "@types/node-fetch": "^2.5.10"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
